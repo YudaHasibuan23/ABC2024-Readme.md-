@@ -35,10 +35,11 @@ Here is a sample of the dataset:
 | -12.812418 | 0.824679     | 0.584101         | -2.705608 | -8.061482  | 13.727324 | -12.742016 | 1.416385  | -0.372542  | -13.412502 | 0.094856      | 0.250375  | 2022-07-21 04:46   | 0                  | P08 |
 | -9.396528  | 0.905175     | 0.609942         | 0.163664  | -5.724306  | 22.029821 | -9.810085  | 1.645429  | -4.372520  | -3.623914  | 0.095847      | 2.480238  | 2022-07-21 04:46   | 0                  | P08 |
 
-# Universal Model Accurate
-### Hasil Evaluasi Keseluruhan Model KNN
+# Universal Model Accuracy  
 
-Hasil evaluasi keseluruhan model berdasarkan metrik berikut:
+### Overall Evaluation of the KNN Model  
+
+The overall evaluation of the model based on the following metrics:  
 
 | Metric    | Value  |
 |-----------|--------|
@@ -48,7 +49,57 @@ Hasil evaluasi keseluruhan model berdasarkan metrik berikut:
 | F1 Score  | 0.6183 |
 | AUC       | 0.7240 |
 
-Evaluasi ini mencerminkan performa rata-rata model dalam mengklasifikasikan data.
+### Overall Evaluation of the XGBoost Model  
+
+The overall evaluation of the model based on the following metrics:  
+
+| Metric    | Value  |
+|-----------|--------|
+| Accuracy  | 0.8167 |
+| Precision | 0.8224 |
+| Recall    | 0.8351 |
+| F1 Score  | 0.7751 |
+| AUC       | 0.9155 |
+
+### Overall Evaluation of the Decision Tree Model  
+
+The overall evaluation of the model based on the following metrics:  
+
+| Metric    | Value  |
+|-----------|--------|
+| Accuracy  | 0.8475 |
+| Precision | 0.8138 |
+| Recall    | 0.8682 |
+| F1 Score  | 0.8206 |
+| AUC       | 0.9135 |
+
+### Overall Evaluation of the Naïve Bayes Model  
+
+The overall evaluation of the model based on the following metrics:  
+
+| Metric    | Value  |
+|-----------|--------|
+| Accuracy  | 0.7291 |
+| Precision | 0.6599 |
+| Recall    | 0.9410 |
+| F1 Score  | 0.7339 |
+| AUC       | 0.8821 |
+
+
+
+# Hybrid Model Accuracy  
+
+# Classification Report - Stacking Model  
+
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0     | 0.88      | 0.87   | 0.88     | 34,022  |
+| 1     | 0.86      | 0.88   | 0.87     | 31,131  |
+| **Accuracy**  |      |        | **0.87**     | 65,153  |
+| **Macro Avg** | 0.87      | 0.87   | 0.87     | 65,153  |
+| **Weighted Avg** | 0.87      | 0.87   | 0.87     | 65,153  |
+
+
 
 ## Usage  
 Clone this repository:  
