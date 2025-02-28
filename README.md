@@ -89,7 +89,7 @@ The overall evaluation of the model based on the following metrics:
 
 # Hybrid Model Accuracy  
 
-# Classification Report - Stacking Model  
+## Extra Trees Classifier + XGBoost +  Logistic Regression sebagai Meta Classifier
 
 | Class | Precision | Recall | F1-Score | Support |
 |-------|-----------|--------|----------|---------|
