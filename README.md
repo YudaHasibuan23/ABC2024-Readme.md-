@@ -36,7 +36,7 @@ Here is a sample of the dataset:
 | -9.396528  | 0.905175     | 0.609942         | 0.163664  | -5.724306  | 22.029821 | -9.810085  | 1.645429  | -4.372520  | -3.623914  | 0.095847      | 2.480238  | 2022-07-21 04:46   | 0                  | P08 |
 
 # Universal Model Accurate
-## Hasil Evaluasi Keseluruhan Model KNN
+### Hasil Evaluasi Keseluruhan Model KNN
 
 Hasil evaluasi keseluruhan model berdasarkan metrik berikut:
 
