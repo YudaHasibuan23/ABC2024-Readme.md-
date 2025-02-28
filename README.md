@@ -35,6 +35,21 @@ Here is a sample of the dataset:
 | -12.812418 | 0.824679     | 0.584101         | -2.705608 | -8.061482  | 13.727324 | -12.742016 | 1.416385  | -0.372542  | -13.412502 | 0.094856      | 0.250375  | 2022-07-21 04:46   | 0                  | P08 |
 | -9.396528  | 0.905175     | 0.609942         | 0.163664  | -5.724306  | 22.029821 | -9.810085  | 1.645429  | -4.372520  | -3.623914  | 0.095847      | 2.480238  | 2022-07-21 04:46   | 0                  | P08 |
 
+##Universal Model Accurate
+KNN
+# Hasil Evaluasi Keseluruhan Model
+
+Hasil evaluasi keseluruhan model berdasarkan metrik berikut:
+
+| Metric    | Value  |
+|-----------|--------|
+| Accuracy  | 0.6563 |
+| Precision | 0.6303 |
+| Recall    | 0.6999 |
+| F1 Score  | 0.6183 |
+| AUC       | 0.7240 |
+
+Evaluasi ini mencerminkan performa rata-rata model dalam mengklasifikasikan data.
 
 ## Usage  
 Clone this repository:  
